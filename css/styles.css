@@ -108,6 +108,9 @@ header {
 .header-contact-tel {
   color: var(--primary-text-color);
 }
+.header-contact-tel:hover {
+  color: var(--dedicated-text-color);
+}
 .header-contact {
   margin-left: auto;
 }
@@ -137,6 +140,15 @@ header {
   flex-direction: column;
   text-align: center;
   margin-bottom: 94px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/images/hero.jpg);
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .slogan {
   font-style: normal;
@@ -147,7 +159,7 @@ header {
   text-transform: uppercase;
   margin-top: 200px;
   margin-bottom: 30px;
-  /* color: #ffffff; */
+  color: var(--heroandadress-text-color);
 }
 
 .button-main {
@@ -200,9 +212,32 @@ header {
   width: 270px;
   height: 101px;
 }
+.criterion-list-item::before {
+  content: '';
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+.icon-antenna::before {
+  background-image: url(/images/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(/images/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(/images/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(/images/astronaut.svg);
+}
 .criterion-list-item:not(:last-child) {
   margin-right: 30px;
 }
+
 /* Чем мы занимаемся */
 .about-us-list {
   display: flex;
