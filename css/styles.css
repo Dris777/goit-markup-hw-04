@@ -185,10 +185,10 @@ header {
 }
 /* Критерии */
 .criterion {
-  margin-bottom: 94px;
 }
 .criterion-list {
   display: flex;
+  margin-bottom: 94px;
 }
 .criterion-title {
   font-style: normal;
