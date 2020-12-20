@@ -185,10 +185,10 @@ header {
 }
 /* Критерии */
 .criterion {
+  margin-bottom: 94px;
 }
 .criterion-list {
   display: flex;
-  margin-bottom: 94px;
 }
 .criterion-title {
   font-style: normal;
@@ -208,10 +208,7 @@ header {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.criterion-list-item {
-  width: 270px;
-  height: 101px;
-}
+
 .criterion-list-item::before {
   content: '';
   display: block;
@@ -246,7 +243,7 @@ header {
   margin-right: 30px;
 }
 .about-us {
-  margin-bottom: 108px;
+  margin-bottom: 94px;
 }
 .about-us-title {
   font-weight: bold;
@@ -305,6 +302,19 @@ header {
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-text-color);
+}
+.team-list-link {
+  display: flex;
+}
+.team-list-link-item:not(:last-child) {
+  margin-right: 10px;
+}
+.team-list-link-item {
+  width: 44px;
+  height: 44px;
+  display: block;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 /* Подвал */
 .footer {
