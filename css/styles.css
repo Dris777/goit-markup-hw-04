@@ -115,11 +115,13 @@ header {
 .header-contact-tel:hover {
   color: var(--dedicated-text-color);
 }
+.header-contact-tel:hover .header-contact-tel-svg {
+  fill: var(--dedicated-text-color);
+}
 .header-contact {
   margin-left: auto;
 }
 .header-contact-tel {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -129,7 +131,6 @@ header {
 .adress-mail {
   margin-right: 50px;
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -137,6 +138,12 @@ header {
   letter-spacing: 0.02em;
 }
 .header-contact-svg {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+  margin-right: 10px;
+}
+.header-contact-tel-svg {
   width: 16px;
   height: 12px;
   fill: #757575;
