@@ -46,6 +46,10 @@ a {
 .adress-mail:hover {
   color: var(--dedicated-text-color);
 }
+.adress-mail:hover .header-contact-svg {
+  fill: var(--dedicated-text-color);
+}
+
 .button:hover {
   background: #2196f3;
 }
@@ -114,11 +118,30 @@ header {
 .header-contact {
   margin-left: auto;
 }
+.header-contact-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
 .adress-mail {
   margin-right: 50px;
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-
+.header-contact-svg {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+  margin-right: 10px;
+}
 /* Секция Герой */
 
 /* Скрытый заголовок */
