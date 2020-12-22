@@ -379,11 +379,24 @@ header {
   margin-right: 30px;
 }
 .clients-link {
-  display: block;
+  display: flex;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+.clients-svg {
+  margin: auto;
+  fill: #afb1b8;
+}
+.clients-link:hover,
+.clients-link:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+.clients-link:hover .clients-svg,
+.clients-link:focus .clients-svg {
+  fill: #2196f3;
 }
 /* Подвал */
 .footer {
