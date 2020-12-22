@@ -333,19 +333,57 @@ header {
 }
 .team-list-link {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 16px;
 }
-
+.team-list-link-li:not(:last-child) {
+  margin-right: 10px;
+}
 .team-list-link-item {
   width: 44px;
   height: 44px;
   display: block;
   border-radius: 50%;
   background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-list-link-item:hover {
+  background-color: #2196f3;
+}
+.team-list-link-item:hover .team-list-link-svg {
+  fill: #ffffff;
 }
 .team-list-link-svg {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
+}
+/* Клиенты */
+.clients {
+  margin-bottom: 94px;
+}
+.clients-list {
+  display: flex;
+}
+.clients-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 50px;
+}
+.clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-link {
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 /* Подвал */
 .footer {
