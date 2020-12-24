@@ -435,6 +435,30 @@ header {
 .footer-list-contact {
   color: var(--primary-text-color);
 }
+.footer-container {
+  display: flex;
+}
+.container-recconect {
+  margin-top: 12px;
+  margin-left: 70px;
+}
+.container-recconect h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.container-recconect-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.container-recconect-list-item:not(:last-child) {
+  margin-right: 10px;
+}
 /* страница ПОРТФОЛИО */
 /* Шапка Header */
 .header-portfolio {
