@@ -238,9 +238,7 @@ header {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.icon-antenna::before {
-  background-image: url('./images/antenna.svg');
-}
+
 .criterion-list-item::before {
   content: '';
   display: block;
@@ -251,15 +249,17 @@ header {
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
-
+.icon-antenna::before {
+  background-image: url('/images/antenna.svg');
+}
 .icon-clock::before {
-  background-image: url(/images/clock.svg);
+  background-image: url('./images/clock.svg');
 }
 .icon-diagram::before {
-  background-image: url(/images/diagram.svg);
+  background-image: url('../images/diagram.svg');
 }
 .icon-astronaut::before {
-  background-image: url(/images/astronaut.svg);
+  background-image: url('/images/astronaut.svg');
 }
 .criterion-list-item:not(:last-child) {
   margin-right: 30px;
