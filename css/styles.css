@@ -349,10 +349,12 @@ header {
   justify-content: center;
   align-items: center;
 }
-.team-list-link-item:hover {
+.team-list-link-item:hover,
+.team-list-link-item:focus {
   background-color: #2196f3;
 }
-.team-list-link-item:hover .team-list-link-svg {
+.team-list-link-item:hover .team-list-link-svg,
+.team-list-link-item:focus .team-list-link-svg {
   fill: #ffffff;
 }
 .team-list-link-svg {
@@ -459,6 +461,24 @@ header {
 .container-recconect-list-item:not(:last-child) {
   margin-right: 10px;
 }
+.recconect-svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+.recconect-list-link {
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recconect-list-link:hover {
+  background-color: #2196f3;
+}
 /* страница ПОРТФОЛИО */
 /* Шапка Header */
 .header-portfolio {
@@ -501,11 +521,12 @@ header {
   border-radius: 4px;
   border: unset;
 }
-.work-button:hover {
+.work-button:hover,
+.work-button:focus {
   background-color: var(--dedicated-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .work-button-text {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -521,6 +542,9 @@ header {
   margin-bottom: 30px;
   width: 370px;
   border: 1px solid #eeeeee;
+}
+.work-list-item:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .work-list-item:nth-child(3n) {
   margin-right: 0;
