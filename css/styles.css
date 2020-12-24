@@ -250,7 +250,7 @@ header {
   margin-bottom: 30px;
 }
 .icon-antenna::before {
-  background-image: url(/images/antenna.svg);
+  background-image: url('/images/antenna.svg');
 }
 .icon-clock::before {
   background-image: url(/images/clock.svg);
