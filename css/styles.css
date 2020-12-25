@@ -43,11 +43,11 @@ a {
   display: block;
 }
 /* Общие правила  */
-.adress-mail:hover .adress-mail:focus {
+.adress-mail:hover,
+.adress-mail:focus {
   color: var(--dedicated-text-color);
 }
-.adress-mail:hover .header-contact-svg,
-.adress-mail:focus .header-contact-svg {
+.adress-mail:hover .header-contact-svg {
   fill: var(--dedicated-text-color);
 }
 
@@ -525,6 +525,15 @@ header {
   padding: 6px 22px;
   border-radius: 4px;
   border: unset;
+}
+.list-button-item:hover .work-button-text {
+  color: #ffffff;
+}
+.list-button-item:focus .work-button-text {
+  color: #ffffff;
+}
+.list-button-item:focus .work-button {
+  background-color: var(--dedicated-text-color);
 }
 .work-button:hover,
 .work-button:focus {
