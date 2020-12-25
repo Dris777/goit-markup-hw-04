@@ -353,6 +353,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .team-list-link-li:focus {
   background-color: #2196f3;
 }
