@@ -43,14 +43,16 @@ a {
   display: block;
 }
 /* Общие правила  */
-.adress-mail:hover {
+.adress-mail:hover .adress-mail:focus {
   color: var(--dedicated-text-color);
 }
-.adress-mail:hover .header-contact-svg {
+.adress-mail:hover .header-contact-svg,
+.adress-mail:focus .header-contact-svg {
   fill: var(--dedicated-text-color);
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background: #2196f3;
 }
 .portfolio {
@@ -59,9 +61,7 @@ a {
 .studio {
   color: var(--dedicated-text-color);
 }
-.button:hover {
-  background: #2196f3;
-}
+
 /* Стили для СТУДИЯ */
 /* Стили для верхней линии header */
 .container-header {
@@ -102,7 +102,8 @@ header {
 .logo-a-list-item:not(:last-child) {
   margin-right: 50px;
 }
-.site-nav :hover {
+.site-nav:hover,
+.site-nav:focus {
   color: #2196f3;
 }
 .site-nav {
@@ -112,10 +113,12 @@ header {
 .header-contact-tel {
   color: var(--primary-text-color);
 }
-.header-contact-tel:hover {
+.header-contact-tel:hover,
+.header-contact-tel:focus {
   color: var(--dedicated-text-color);
 }
-.header-contact-tel:hover .header-contact-tel-svg {
+.header-contact-tel:hover .header-contact-tel-svg,
+.header-contact-tel:focus .header-contact-tel-svg {
   fill: var(--dedicated-text-color);
 }
 .header-contact {
@@ -210,7 +213,8 @@ header {
   height: 50px;
 }
 
-.button span:hover {
+.button span:hover,
+.button span:focus {
   color: #ffffff;
 }
 /* Критерии */
@@ -476,7 +480,8 @@ header {
   justify-content: center;
   align-items: center;
 }
-.recconect-list-link:hover {
+.recconect-list-link:hover,
+.recconect-list-link:focus {
   background-color: #2196f3;
 }
 /* страница ПОРТФОЛИО */
@@ -543,7 +548,8 @@ header {
   width: 370px;
   border: 1px solid #eeeeee;
 }
-.work-list-item:hover {
+.work-list-item:hover,
+.work-list-item:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .work-list-item:nth-child(3n) {
