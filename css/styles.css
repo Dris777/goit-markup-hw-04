@@ -47,7 +47,8 @@ a {
 .adress-mail:focus {
   color: var(--dedicated-text-color);
 }
-.adress-mail:hover .header-contact-svg {
+.adress-mail:hover .header-contact-svg,
+.adress-mail:focus .header-contact-svg {
   fill: var(--dedicated-text-color);
 }
 
